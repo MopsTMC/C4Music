@@ -1,0 +1,75 @@
+{
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether.warped_forest",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/home",
+        "stream": true,
+        "volume": 0.65,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether.warped_forest",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/geklimper",
+        "stream": true,
+        "volume": 0.55,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether.warped_forest",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/texture_prayers",
+        "stream": true,
+        "volume": 0.75,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether.warped_forest",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/home",
+        "stream": true,
+        "volume": 0.65,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "sounds": []
+  },
+  "music_disc.pigstep": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/vlem",
+        "stream": true,
+        "volume": 0.65
+      }
+    ]
+  }
+}

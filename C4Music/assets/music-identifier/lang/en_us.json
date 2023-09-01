@@ -1,0 +1,16 @@
+{
+  "music-identifier.sound.minecraft:music/game/end/ki": "C418 - Ki",
+  "music-identifier.sound.minecraft:music/game/end/intro": "C418 - Intro",
+
+  "music-identifier.sound.minecraft:music/game/hal5": "C418 - Chris",
+  "music-identifier.sound.minecraft:music/game/nuance3": "C418 - Door",
+  "music-identifier.sound.minecraft:music/game/nuance4": "C418 - Équinoxe",
+  "music-identifier.sound.minecraft:music/game/piano4": "C418 - Kyoto",
+  "music-identifier.sound.minecraft:music/game/droopy": "C418 - Droopy Likes Ricochet",
+
+  "music-identifier.sound.minecraft:music/menu/menu5": "C418 - Moog City",
+  "music-identifier.sound.minecraft:music/menu/menu6": "C418 - Beginning",
+
+  "music-identifier.sound.minecraft:music/game/nether/nether5": "C418 - Excuse",
+  "music-identifier.sound.minecraft:music/game/nether/nether6": "C418 - Flake"
+}

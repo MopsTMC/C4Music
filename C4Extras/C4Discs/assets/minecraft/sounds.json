@@ -1,0 +1,52 @@
+{
+  "music_disc.11": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/eleven",
+        "stream": true,
+        "volume": 0.95
+      }
+    ]
+  },
+  "music_disc.5": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/one",
+        "stream": true,
+        "volume": 0.75
+      }
+    ]
+  },
+  "music_disc.otherside": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/dog",
+        "stream": true,
+        "volume": 0.95
+      }
+    ]
+  },
+  "music_disc.pigstep": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/jayson-glove",
+        "stream": true,
+        "volume": 0.75
+      }
+    ]
+  },
+  "music_disc.relic": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/depado",
+        "stream": true,
+        "volume": 0.80
+      }
+    ]
+  }
+}
