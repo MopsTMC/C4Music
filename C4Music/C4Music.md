@@ -1,6 +1,6 @@
 # C4Music
 
-C4Music is a resource pack that removes the music added in the Caves and Cliffs Update & The Wild Update and expands upon the original soundtrack with [C418's](https://c418.org/) unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta) with a faithful approach to the gameplay and its history.
+C4Music is a resource pack that removes the music added in Caves & Cliffs, The Wild Update and Trails & Tales and expands upon the original soundtrack with [C418's](https://c418.org/) unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta) with a faithful approach to the gameplay and its history.
 
 ## Why?
 <p>
@@ -8,15 +8,12 @@ With the first update to 1.17, I was greeted with some awesome new music. It was
 It wouldn't take long, however, to realize how rare it would be that I heard music by C418. Every time I launched the game I would hear the newly added music instead and it got uncanny.
 </p>
 <p>
-It seems like for every version from 1.17 upwards the original soundtrack is being pushed to a progressively further back seat and as the new soundtrack was monotonously prevailing, I started missing the nostalgic melodies of Mincraft's infamous soundtrack and wanted to preserve them in some way.
-</p>
-<p>
-There's still a bunch of music C418 composed for Minecraft way back that has never made an appearance in the game though and it is its time to shine.
+It seems like for every version from 1.17 upwards the original soundtrack is being pushed to a progressively further back seat and I started missing the nostalgic melodies of Mincraft's infamous soundtrack which I wanted to preserve them in some way. That's where a bunch of music C418 composed for Minecraft way back that has never made an appearance in the game, comes in and it is its time to shine.
 </p>
 
 ### tl;dr
 I find the music by C418 more faithful to the game and enjoy its presence more than the new soundtracks. <br>
-If you do too, give this pack a try
+If you do too, give this pack a try!
 
 ## Changes
 
@@ -24,7 +21,7 @@ If you do too, give this pack a try
 (Check out this [changelog](https://modrinth.com/resourcepack/c4music/version/2.0) for details)
 
 - __Removed__: <br>
-Stand Tall, Left to Bloom, Wending, Infinite Amethyst, One More Day, Floating Dream, Comforting Memories, An Ordinary Day, Firebugs, Aerie, Labyrinthine
+Stand Tall, Left to Bloom, Wending, Infinite Amethyst, One More Day, Floating Dream, Comforting Memories, An Ordinary Day, Firebugs, Aerie, Labyrinthine, Echo in the Wind, A Familiar Room, Bromelaid, Crescent Dunes
 
 - __Added__: <br>
 Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, Beginning, Moog City
@@ -34,7 +31,7 @@ Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, 
 
 ### Extras
 - [Nether Addon](https://modrinth.com/resourcepack/c4music/version/c4nether) - Replaces everything Nether-related
-- [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with some better choices
+- [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with C418 tracks
 
 ## Compatibility
 
@@ -72,12 +69,11 @@ Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, 
   - 🔴 **Alpha**: Under development; proceed with caution and report any findings if possible as it would help immensly. Old versions tagged as alpha contain bugs and are kept only for archival reasons
 - Minecraft's warning that the resource pack is made for an older or newer version can be safely ignored. This is only because it has its pack format set to 9 but it should work on all 1.17+ versions. Tested on: 1.19.2, 1.18.2
 - I have left anything related to the Deep Dark (Ancestry & 5) untouched as I consider it part of the game progression, story-telling and ambiance. For the same reason I did not remove any of The Nether Update's soundtrack, which accompanied the new biomes, but rather expanded it and balanced its weight.
-- I do not wish to belittle Lena Raine's and Kumi Tanioka's work. Their scores are amazing in their own ways. However, I don't necessarily find them appropriate for Minecraft, especially since they have acted as a replacement rather than an expansion to the existing soundtrack.
+- I do not wish to belittle the work of Lena Raine, Kumi Tanioka and Aaron Cherof. Their scores are amazing in their own ways. However, I don't necessarily find them appropriate for Minecraft, especially since they have act as a replacement rather than an expansion to the existing soundtrack.
 - There are plenty of resource packs which add C418 music to Minecraft from other albums too. My goal for this resource pack was not that as:
   1. There are too many good songs to chose from, as are the combinations
   2. I wanted to stick to what was intended/proposed for Minecraft (Volumes Alpha & Beta).
-  3. It's difficult to find a configuration that would satisfy a big enough audience. There are countless tracklists/resource packs that could be created and everyone has their own preferences. The best solution for this is for me to "open source" the project and provide intructions on how to modify it yourself, something I'm planning for the future, so there will be no need to scour the internet and forcefully abide by others' tastes. <br>
-  This is why I'm mostly negative towards "personalised" resource packs which are very opinionated and do not serve much purpose
+  3. It's difficult to find a configuration that would satisfy a big enough audience. There are countless tracklists/resource packs that could be created and everyone has their own preferences. This is why I'm mostly negative towards "personalised" resource packs which are very opinionated and do not serve a big audience. <br> For this reason, the project is "open source" on GitHub and I plan on providing intructions on how to modify and make addons for it yourself, so there will be no need to scour the internet and forcefully abide by others' tastes.
 - Since July 2023 extraction protection methods have been enforced in order to abide by [C418's usage policy](https://c418.org/2017/01/26/what-am-i-allowed-to-do-with-daniels-music/) and as such, old versions are no longer available
 - **Redistribution without linking back to this page and credit to me and C418 is strictly prohibited**. Apart from that you may freely use this resource pack in any creation and if you wish to share it, make sure to link to this original page
 

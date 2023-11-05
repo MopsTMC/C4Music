@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 9,
+    "pack_format": 18,
+    "supported_formats": {"min_inclusive": 9, "max_inclusive": 18},
     "description": "§7C4Music\n§8by MopsTMC \u2022 v3.0"
   }
 }
