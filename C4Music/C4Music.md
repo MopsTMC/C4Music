@@ -1,6 +1,6 @@
 # C4Music
 
-C4Music is a resource pack that removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with [C418's](https://c418.org/) unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta) with a faithful approach to the gameplay and its history.
+C4Music satisfyingly completes Minecraft's soundtrack with a faithful approach to the gameplay and its history. It's a lightweight resource pack that removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with [C418's](https://c418.org/) unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta).
 
 ## Why?
 <p>
@@ -8,7 +8,7 @@ Updating to 1.17 I was greeted with some awesome new music. It was a breath of f
 It wouldn't take long, however, to realize how rare it would be that I heard music by C418, the original and infamous soundtrack. Every time I launched the game or went to a new biome I would hear the newly added music instead.
 </p>
 <p>
-It seems like for every version from 1.17 and up, the original soundtrack is being pushed back by music licensed and owned exclusively by Microsoft, with no hopes of going back to the C418 era. I started missing the nostalgic melodies of the C418 soundtrack which I wanted to preserve in some way and that's where a bunch of music C418 composed for Minecraft way back, comes in. It has never made an appearance in the game and finally, this was its chance to shine!
+Turns out this was an intentional move. The original soundtrack is being pushed back by music licensed and owned exclusively by Microsoft, with no hopes of going back to the C418 era. I started missing the nostalgic melodies of the original soundtrack which I wanted to preserve in some way and that's where a bunch of music C418 composed for Minecraft way back, comes in. It has never made an appearance in the game and finally, this is its chance to shine!
 </p>
 
 ### tl;dr
@@ -91,6 +91,18 @@ For issue reporting, feedback and support, please don't hesitate to [create an i
 
 # Versions
 
+## 1.20.3 Patch
+
+This release adds compatibility with the path changes in 1.20.3 (pack format 19) and utilises the new pack overlay system for backwards compatibility. _If you are playing on versions earlier than 1.20.3 there is no reason to update, there has been no change in functionality._
+
+### Changes:
+
+- Pack format updated to 18 (1.20.2)
+- Supported formats 9-22 (1.19-1.20.4)
+
+These changes only affect versions which can interpret the respective fields in `pack.mcmeta` (>1.20.2) which means minecraft will still complain about the resourcepack being made for an older or newer version depending on your setup. <br>
+As for every new release, please report any findings and issues
+
 ## Third Major Release
 
 - Fixed the unspecified `flower_forest` and `forest` sound events from the compatibility addon
@@ -98,8 +110,7 @@ For issue reporting, feedback and support, please don't hesitate to [create an i
 - Added compatibility for [Music Identifier](https://modrinth.com/mod/music-identifier) and [Music Control](https://modrinth.com/mod/music-control)
 - Music discs are no longer provided in the main resource pack. This functionality has been moved to the [C4Discs](https://modrinth.com/resourcepack/c4music/version/c4discs) addon. I recommend downloading it too for the full experience
 
-### There is no need to use the C4TrailsNTales compatibility addon anymore
-As for every new release, please report any findings and issues
+**There is no need to use the C4TrailsNTales compatibility addon anymore. If you are on 1.20.3+ download v3.1 of the pack.**
 
 -----------------------------------------------------------------------------
 
