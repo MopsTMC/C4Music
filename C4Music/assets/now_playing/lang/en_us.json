@@ -12,5 +12,9 @@
   "now_playing.sound.minecraft:music/menu/menu6": "C418 - Beginning",
 
   "now_playing.sound.minecraft:music/game/nether/nether5": "C418 - Excuse",
-  "now_playing.sound.minecraft:music/game/nether/nether6": "C418 - Flake"
+  "now_playing.sound.minecraft:music/game/nether/nether6": "C418 - Flake",
+
+  "now_playing.sound.minecraft:music/game/peanuts": "C418 - Peanuts",
+  "now_playing.sound.minecraft:music/game/swarms": "C418 - Swarms",
+  "now_playing.sound.minecraft:music/game/mau5cave": "C418, Deadmau5 - mau5cave"
 }

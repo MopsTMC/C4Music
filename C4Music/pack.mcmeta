@@ -1,8 +1,8 @@
 {
   "pack": {
     "pack_format": 18,
-    "supported_formats": {"min_inclusive": 9, "max_inclusive": 32},
-    "description": "§7C4Music\n§8by MopsTMC \u2022 v3.2"
+    "supported_formats": {"min_inclusive": 9, "max_inclusive": 40},
+    "description": "§7C4Music\n§8by MopsTMC \u2022 v4.0"
   },
   "overlays": {
     "entries": [
@@ -11,8 +11,12 @@
         "directory": "pf9-19"
       },
       {
-        "formats": {"min_inclusive": 20, "max_inclusive": 99},
+        "formats": {"min_inclusive": 20, "max_inclusive": 32},
         "directory": "pf20-32"
+      },
+      {
+        "formats": {"min_inclusive": 33, "max_inclusive": 99},
+        "directory": "pf33plus"
       }
     ]
   }

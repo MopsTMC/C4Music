@@ -12,5 +12,9 @@
   "minecraft:music/menu/menu6": "C418 - Beginning",
 
   "minecraft:music/game/nether/nether5": "C418 - Excuse",
-  "minecraft:music/game/nether/nether6": "C418 - Flake"
+  "minecraft:music/game/nether/nether6": "C418 - Flake",
+
+  "minecraft:music/game/peanuts": "C418 - Peanuts",
+  "minecraft:music/game/swarms": "C418 - Swarms",
+  "minecraft:music/game/mau5cave": "C418, Deadmau5 - mau5cave"
 }

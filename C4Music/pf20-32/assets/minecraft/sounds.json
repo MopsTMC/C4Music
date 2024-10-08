@@ -47,7 +47,7 @@
       {
         "name": "music/game/hal5",
         "stream": true,
-        "volume": 0.7
+        "volume": 0.6
       },
       {
         "name": "music/game/key",
@@ -231,6 +231,29 @@
       {
         "name": "music.game",
         "type": "event"
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "music/game/nether/dead_voxel",
+        "stream": true,
+        "pitch": 0.8,
+        "volume": 0.2
+      },
+      {
+        "name": "music/game/nether/concrete_halls",
+        "stream": true,
+        "pitch": 0.8,
+        "volume": 0.2
+      },
+      {
+        "name": "music/game/nether/nether5",
+        "stream": true,
+        "pitch": 0.8,
+        "volume": 0.2
       }
     ]
   },

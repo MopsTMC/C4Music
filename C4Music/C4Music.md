@@ -1,97 +1,111 @@
 # C4Music
 
-C4Music satisfyingly completes Minecraft's soundtrack with a faithful approach to the gameplay and its history. It's a lightweight resource pack that removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with [C418's](https://c418.org/) unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta).
+C4Music is a lightweight resource pack that satisfyingly completes Minecraft's soundtrack with C418's unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta). It removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with a faithful approach to the gameplay and its history.
 
 ## Why?
+
+**tl;dr** <br>
+In honor of preserving the original soundtrack. If you prefer it too, give this pack a try!
 <p>
-Updating to 1.17 I was greeted with some awesome new music. It was a breath of fresh air to hear something new after such a long time of playing the game, especially after the incredible path the Nether Update took in music and acoustics. <br>
-It wouldn't take long, however, to realize how rare it would be that I heard music by C418, the original and infamous soundtrack. Every time I launched the game or went to a new biome I would hear the newly added music instead.
+The Nether Update took an incredible path in music and this was my expectation going into 1.17. The new soundtrack was very exciting even though it got repetitive, constantly being played in the menus and exclusively in the new biomes.
 </p>
 <p>
-Turns out this was an intentional move. The original soundtrack is being pushed back by music licensed and owned exclusively by Microsoft, with no hopes of going back to the C418 era. I started missing the nostalgic melodies of the original soundtrack which I wanted to preserve in some way and that's where a bunch of music C418 composed for Minecraft way back, comes in. It has never made an appearance in the game and finally, this is its chance to shine!
+Turns out this was somewhat intentional. The original soundtrack is being phased out by music licensed and owned exclusively by Microsoft, even though there's still a bunch of music C418 composed for Minecraft way back that has never officially made an appearance in the game. This is finally its time to shine!
 </p>
 
-### tl;dr
-I find the Minecraft Albums by C418 more faithful to the game and enjoy them more than the new soundtracks. <br>
-If you do too, give this pack a try!
 
-## Changes
+## Features
 
-### Gameplay Music
+- **Gameplay Music**
 (Check out this [changelog](https://modrinth.com/resourcepack/c4music/version/2.0) for details)
 
-- __Removed__: <br>
+  - __Removed__: <br>
 Stand Tall, Left to Bloom, Wending, Infinite Amethyst, One More Day, Floating Dream, Comforting Memories, An Ordinary Day, Firebugs, Aerie, Labyrinthine, Echo in the Wind, A Familiar Room, Bromelaid, Crescent Dunes
 
-- __Added__: <br>
-Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, Beginning, Moog City
+  - __Added__: <br>
+Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, Beginning, Moog City, Swarms, Peanuts
 
-- __No biome-specific tracks__ Most tracks will play wherever you are
+- **Lightweight** thanks to Packsquash
 
+- Built-in **Mod Support** for [Now Playing](https://modrinth.com/mod/now-playing), [Music Identifier](https://modrinth.com/mod/music-identifier) and [Music Control](https://modrinth.com/mod/music-control)
 
-### Extras
-- [Nether Addon](https://modrinth.com/resourcepack/c4music/version/c4nether) - Replaces everything Nether-related
-- [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with C418 tracks
+- **Extras**
+  - [Nether Addon](https://modrinth.com/resourcepack/c4music/version/c4nether) - Replaces everything Nether-related
+  - [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with C418 tracks
 
 ## Compatibility
 
 - ### Resource Packs <br>
   C4Music is incompatible with other music-overriding resource packs which provide their own `sounds.json`, such as [Only C418](https://modrinth.com/resourcepack/only-c418). Priority will be given based on placement in the list of the resource pack menu, with an almost guarantee of an inconsistent state. I recommend choosing only one such resource pack to be used at a time.
 
-  To use C4Music alongside resource packs that *add* to the vanilla soundtrack and are known to *not* use the `replace` feature in `sounds.json`, place C4Music below any such pack to ensure all tracks are registered.
+  To use C4Music alongside resource packs that *add* to the vanilla soundtrack and are known to *not* use the `replace` feature in `sounds.json`, **place C4Music below any such pack** to ensure all tracks are registered.
 
-  Keep in mind that resource packs that change the translation strings and/or textures of records may also interfere with that part of C4Music. There are some cases where in modded instances, record descriptions will be shown incorrectly. You'll need a bit of fiddling around to find the resource pack order that prevents this.
+  Minecraft's warning that the resource pack is made for an older or newer version can be safely ignored as long as the modrinth download page lists your Minecraft version as supported. This is only because it has its pack format set to 9 but it should work on all 1.17+ versions.
 
 - ### Mods <br>
-  - ❕ **Mods which utilise built-in resource packs**. These cases should be treated as mentioned above like any other resource pack
-  - ✅ **Content mods** usually append to the game's soundtrack so there shouldn't be any issues. However, if a mod is used to replace or modify music, chances are it's going to ignore C4Music
+  - ❕ **Mods with built-in resource packs**. These cases should be treated as mentioned above like any other resource pack
+  - ✅ **Content mods** usually append to the game's soundtrack with their own sound events so there shouldn't be any issues. However, if a mod is used to replace or modify music, chances are it's going to ignore C4Music
   - ✅ [Start the Music!](https://modrinth.com/mod/start-the-music) is compatible. The same probably goes for [More Music](https://modrinth.com/mod/moremusic)
   - ✅ [Mixtape](https://modrinth.com/mod/mixtape/) works well out of the box with C4Music. There is a rare case though in which creative music will play in survival while using this mod in multiplayer
-  - ✅ Starting with v2.2, there's an integration with [Now Playing](https://modrinth.com/mod/now-playing)
-  - ✅ The third major release (v3.0) provides support for [Music Identifier](https://modrinth.com/mod/music-identifier) and [Music Control](https://modrinth.com/mod/music-control)
   - ❌ [Music Notification](https://modrinth.com/mod/music-notification) does not display track info correctly due to the way it parses music and does not allow overrides with resource packs
   - ❌ [Playlist](https://modrinth.com/mod/playlist) is in a grey area, as it undoes the removal part of C4Music. This means its tracks will still play naturally but alongside the new tracks. Also, they are currently not available in its menu but this is a planned feature as mentioned [in this issue](https://github.com/fudgeu/playlist/issues/39)
 
-- ### Bedrock Support
-  ❌ Due to technical complications, bedrock support will not be provided, at least not soon.
-
-## Related projects
-- If you are familiar with fabric mods, you should check out [Mixtape](https://modrinth.com/mod/mixtape/) with similar functionality, more features, and configurability
-- If instead you'd like to keep the new music but have it play in a more balanced manner, try out the [Balanced Music](https://modrinth.com/resourcepack/balanced-music) resource pack
-- [Biome Music Unlocker](https://modrinth.com/resourcepack/biome-music-unlocker) is a simple resource pack that adds the ability for biome-specific tracks to play in pre-1.17 biomes
-- There are also [Minecraft Music Revised](https://modrinth.com/resourcepack/minecraft-music-revised) and [More C418 Music](https://modrinth.com/resourcepack/more-c418-music) which rid the game of any non-C418 music entirely, albeit with some more subjective tweaks and heavier edits
+- ### Bedrock
+  ❌ Due to technical complications, bedrock is not supported.
 
 ## Notes
 
-- The release channel in every release specifies the amount of testing it has gone through and the extent of its functionality:
+- The release channel in every release specifies the amount of testing it has gone through and the extent of its functionality. Issue reporting and feedback are greatly encouraged through [GitHub issues](https://github.com/MopsTMC/C4Music/issues) or Discord `@mopstmc`
   - 🟢 **Release**: Recommended for download; there are no known issues
   - 🟠 **Beta**: In testing; working for the most part but not yet confirmed to be stable
   - 🔴 **Alpha**: Under development; proceed with caution and report any findings if possible as it would help immensely. Old versions tagged as alpha contain bugs and are kept only for archival reasons
-- Minecraft's warning that the resource pack is made for an older or newer version can be safely ignored. This is only because it has its pack format set to 9 but it should work on all 1.17+ versions. Tested on: 1.19.2, 1.18.2
-- I have left anything related to the Deep Dark (Ancestry & 5) untouched as I consider it part of the game progression, story-telling and ambiance. For the same reason, I did not remove any of The Nether Update's soundtrack, which accompanied the new biomes, but rather expanded it and balanced its weight.
-- I do not wish to belittle the work of Lena Raine, Kumi Tanioka and Aaron Cherof. Their scores are amazing in their own ways. However, I don't necessarily find them appropriate for Minecraft, especially since they have acted as a replacement rather than an expansion to the existing soundtrack.
-- There are plenty of resource packs that add C418 music to Minecraft from other albums too. My goal for this resource pack was not that as:
-  1. There are too many good songs to choose from, as are the combinations
-  2. I wanted to stick to what was intended/proposed for Minecraft (Volumes Alpha & Beta).
-  3. It's difficult to find a configuration that would satisfy a big enough audience. There are countless tracklists/resource packs that could be created and everyone has their own preferences. This is why I'm mostly negative towards "personalised" resource packs which are very opinionated and do not serve a big audience. <br> For this reason, the project is "open source" on GitHub and I plan on providing instructions on how to modify and make addons for it yourself, so there will be no need to scour the internet and forcefully abide by others' tastes.
-- Since July 2023 extraction protection methods have been enforced to abide by [C418's usage policy](https://c418.org/2017/01/26/what-am-i-allowed-to-do-with-daniels-music/) and as such, old versions are no longer available
+- I did not remove any of The Nether Update's soundtrack but rather expanded it and balanced its weight due to it playing a big part in its biomes' ambiance and character.
+- I do not wish to belittle the work of Lena Raine, Kumi Tanioka and Aaron Cherof. Their tracks are amazing in their own ways. However, I don't necessarily find them appropriate for Minecraft, especially since they have acted as a replacement rather than an expansion to the existing soundtrack.
+- Since July 2023 extraction protection methods have been enforced to abide by [C418's usage policy](https://c418.org/2017/01/26/what-am-i-allowed-to-do-with-daniels-music/) and as such, old versions are no longer available and new ones are not meant to be tampered with. The project's structure is available on GitHub and I plan on providing instructions on how to modify and make addons for it yourself
 - **Redistribution without linking back to this page and credit to me and C418 is strictly prohibited**. Apart from that you may freely use this resource pack in any creation and if you wish to share it, make sure to link to this original page
 
 <hr>
 <p>
-This pack is dedicated to fans of Minecraft and C418's amazing work. Credits go to him for the music used in this resource pack
-</p>
-<p>
 
-For issue reporting, feedback and support, please don't hesitate to [create an issue on GitHub](https://github.com/MopsTMC/C4Music/issues), and even contact me on Discord: [MopsTMC#3659](https://discord.com/users/449838723371237387)
-
+This pack is dedicated to fans of Minecraft and [C418](https://c418.org/)'s amazing work. Credits go to him for the music used in this resource pack
 </p>
 
 -----------------------------------------------------------------------------
 
 # Versions
 
+## v4 - Anniversary Update 🥳
+
+
+
+- Added 3 new tracks:
+
+| Track | Album | Biomes |
+| :---: | :---: | :---: |
+| [peanut](https://c418.bandcamp.com/track/peanuts) |  little things | Flower Forest, Cherry Grove, Lush Caves |
+| [swarms](https://c418.bandcamp.com/track/swarms) | one | Frozen/Stony/Jagged Peaks and Badlands |
+| [mau5cave](https://c418.bandcamp.com/track/mau5cave) | seven years of server data | Deep Dark, Dripstone Caves, Lush Caves |
+- Each biome's tracklist now keeps parity with vanilla's more unique tracklists
+- Lowered volume of track "Chris" by 10%
+- Added out-of-tune Nether tracks in Deep Dark (+ Deep, Endless, Eld Unknown on 1.21+)
+
+<!---
+  - https://archive.org/download/MCCOST (halloween)
+--->
+
+## 1.20.5+ Compatibility
+
+Due to an oversight with the pack overlay system and some undocumented changes in 1.20.5, the previous version would not register the correct tracklist. This version has only been tested on 1.20.6.
+
+### Changes:
+- Pack will no longer catastrophically ruin the tracklist of versions outside of the supported pack formats
+- Added compatibility with Now Playing v1.5.1
+- **The file can no longer, and is not meant to, be extracted and used outside of the game. It is also [incompatible with Java 22!](https://github.com/MopsTMC/C4Music/issues/5)**
+
 ## 1.20.3 Patch
+
+### DO NOT USE IN 1.20.5+
+_This version will not play music correctly on versions other than the ones mentioned below_
 
 This release adds compatibility with the path changes in 1.20.3 (pack format 19) and utilises the new pack overlay system for backwards compatibility. _If you are playing on versions earlier than 1.20.3 there is no reason to update, there has been no change in functionality._
 

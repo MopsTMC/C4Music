@@ -19,3 +19,5 @@ This C4Music addon fixes music disc 11, returns Cat's long-lost sequel to the ga
 
 ## Warning
 Due to [MC-260346](https://bugs.mojang.com/browse/MC-260346) music discs from resource packs stop playing before they end in versions 1.19.4+
+
+[Jukebox Custom Disc Fix](https://modrinth.com/mod/NtPNF0D7) can be used on 1.20.x
