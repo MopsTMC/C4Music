@@ -2,6 +2,10 @@
 
 C4Music is a lightweight resource pack that satisfyingly completes Minecraft's soundtrack with C418's unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta). It removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with a faithful approach to the gameplay and its history.
 
+## Thank you for 50k downloads!
+I ask you to spare a few minutes to answer the survey below. Your time is helpful and greatly appreciated! <br>
+[https://forms.gle/SDwFRtbASJw3Fwov7](https://forms.gle/SDwFRtbASJw3Fwov7)
+
 ## Why?
 
 **tl;dr** <br>
@@ -76,18 +80,37 @@ This pack is dedicated to fans of Minecraft and [C418](https://c418.org/)'s amaz
 
 ## v4 - Anniversary Update 🥳
 
+It has been 2 years since the first public release of C4Music! Thank you so much for downloading the resource pack, especially to the those who have stuck around since the humble beginnings.
 
+- Added **3 new tracks**
 
-- Added 3 new tracks:
-
-| Track | Album | Biomes |
+| Track | Album | Plays in |
 | :---: | :---: | :---: |
-| [peanut](https://c418.bandcamp.com/track/peanuts) |  little things | Flower Forest, Cherry Grove, Lush Caves |
-| [swarms](https://c418.bandcamp.com/track/swarms) | one | Frozen/Stony/Jagged Peaks and Badlands |
-| [mau5cave](https://c418.bandcamp.com/track/mau5cave) | seven years of server data | Deep Dark, Dripstone Caves, Lush Caves |
-- Each biome's tracklist now keeps parity with vanilla's more unique tracklists
-- Lowered volume of track "Chris" by 10%
-- Added out-of-tune Nether tracks in Deep Dark (+ Deep, Endless, Eld Unknown on 1.21+)
+| [peanuts](https://c418.bandcamp.com/track/peanuts) |  little things | Lush Biomes |
+| [swarms](https://c418.bandcamp.com/track/swarms) | one | Mountains |
+| [mau5cave](https://c418.bandcamp.com/track/mau5cave) | seven years of server data | Caves |
+
+- Each biome now has a **unique tracklist** in order to keep parity with vanilla
+- Adjusted **volume** of some tracks
+- Added out-of-tune nether tracks as distant echoes in Deep Dark
+<details><summary>Click here to view a detailed list of changes</summary>
+  <p>
+
+  | Track | Biomes | Volume |
+  | :---: | :---: | :---: |
+  | Chris | Overworld | -15% |
+  | Door | Overworld | -10% |
+  | Equinoxe | Overworld, Caves | - |
+  | Kyoto | Overworld, Caves | -15% |
+  | Droopy | Overworld | -10% | 
+  | Peanuts | Flower Forest, Cherry Grove, Lush Caves | -80% |
+  | Swarms | Frozen/Stony/Jagged Peaks and Badlands | -75% |
+  | Mau5cave | Deep Dark, Dripstone/Lush Caves | -40% |
+  | Concrete Halls | Nether, Deep Dark | - |
+  | Ballad of the Cats | Nether, Deep Dark | - |
+  
+  </p>
+</details>
 
 <!---
   - https://archive.org/download/MCCOST (halloween)
