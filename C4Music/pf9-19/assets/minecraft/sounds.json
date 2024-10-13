@@ -1,4 +1,33 @@
 {
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/creative/aria_math",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/biome_fest",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/blind_spots",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/dreiton",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/haunt_muskie",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/taswell",
+        "stream": true
+      }
+    ]
+  },
   "music.end": {
     "sounds": [
       {
@@ -47,7 +76,7 @@
       {
         "name": "music/game/hal5",
         "stream": true,
-        "volume": 0.6
+        "volume": 0.55
       },
       {
         "name": "music/game/nuance1",
@@ -60,7 +89,7 @@
       {
         "name": "music/game/nuance3",
         "stream": true,
-        "volume": 0.6
+        "volume": 0.5
       },
       {
         "name": "music/game/nuance4",
@@ -82,13 +111,13 @@
       {
         "name": "music/game/piano4",
         "stream": true,
-        "volume": 0.6
+        "volume": 0.45
       }
     ]
   },
-   "music.menu": {
-       "replace": true,
-       "sounds": [
+  "music.menu": {
+    "replace": true,
+    "sounds": [
       {
         "name": "music/menu/menu1",
         "stream": true
@@ -117,67 +146,7 @@
       }
     ]
   },
-  "music.nether.basalt_deltas": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music.nether.warped_forest",
-        "type": "event"
-      },
-      {
-        "name": "music/game/nether/soulsand_valley/so_below",
-        "stream": true,
-        "volume": 0.6,
-        "weight": 2
-      }
-    ]
-  },
-  "music.nether.crimson_forest": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music.nether.warped_forest",
-        "type": "event"
-      },
-      {
-        "name": "music/game/nether/crimson_forest/chrysopoeia",
-        "stream": true,
-        "volume": 0.65,
-        "weight": 2
-      }
-    ]
-  },
-  "music.nether.nether_wastes": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music.nether.warped_forest",
-        "type": "event"
-      },
-      {
-        "name": "music/game/nether/nether_wastes/rubedo",
-        "stream": true,
-        "volume": 0.5,
-        "weight": 2
-      }
-    ]
-  },
-  "music.nether.soul_sand_valley": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music.nether.warped_forest",
-        "type": "event"
-      },
-      {
-        "name": "music/game/nether/soulsand_valley/so_below",
-        "stream": true,
-        "volume": 0.6,
-        "weight": 2
-      }
-    ]
-  },
-  "music.nether.warped_forest": {
+  "music.nether": {
     "sounds": [
       {
         "name": "music/game/nether/nether1",
@@ -207,12 +176,86 @@
       }
     ]
   },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.65,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.nether",
+        "type": "event"
+      },
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.6,
+        "weight": 2
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "sounds": [
+      {
+        "name": "music.nether",
+        "type": "event"
+      }
+    ]
+  },
   "music.overworld.badlands": {
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
+        "name": "music.overworld.jungle",
         "type": "event"
+      },
+      {
+        "name": "music/game/swarms",
+        "stream": true,
+        "volume": 0.25,
+        "weight": 2
       }
     ]
   },
@@ -220,7 +263,7 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
+        "name": "music.overworld.jungle",
         "type": "event"
       }
     ]
@@ -229,8 +272,62 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
+      },
+      {
+        "name": "music/game/droopy",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 2
+      },
+      {
+        "name": "music/game/peanuts",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 3
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/ballad_of_the_cats",
+        "stream": true,
+        "volume": 0.2,
+        "pitch": 0.8
+      },
+      {
+        "name": "music/game/nether/warmth",
+        "stream": true,
+        "volume": 0.2,
+        "pitch": 0.8
+      },
+      {
+        "name": "music/game/mau5cave",
+        "stream": true,
+        "volume": 0.3,
+        "pitch": 0.9,
+        "weight": 2
       }
     ]
   },
@@ -238,8 +335,38 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance4",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
       }
     ]
   },
@@ -247,8 +374,36 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance4",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
+      },
+      {
+        "name": "music/game/mau5cave",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 4
       }
     ]
   },
@@ -256,8 +411,50 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal5",
+        "stream": true,
+        "volume": 0.55
+      },
+      {
+        "name": "music/game/nuance3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/droopy",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 2
+      },
+      {
+        "name": "music/game/peanuts",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 3
       }
     ]
   },
@@ -274,8 +471,43 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
+      },
+      {
+        "name": "music/game/swarms",
+        "stream": true,
+        "volume": 0.25,
+        "weight": 5
       }
     ]
   },
@@ -283,8 +515,33 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
       }
     ]
   },
@@ -292,8 +549,43 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
+      },
+      {
+        "name": "music/game/swarms",
+        "stream": true,
+        "volume": 0.25,
+        "weight": 5
       }
     ]
   },
@@ -301,17 +593,50 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
-      }
-    ]
-  },
-  "music.overworld.jungle_and_forest": {
-    "replace": true,
-    "sounds": [
+        "name": "music/game/hal4",
+        "stream": true
+      },
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal5",
+        "stream": true,
+        "volume": 0.55
+      },
+      {
+        "name": "music/game/nuance3",
+        "stream": true,
+        "volume": 0.5
       }
     ]
   },
@@ -319,8 +644,37 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance4",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/peanuts",
+        "stream": true,
+        "volume": 0.2,
+        "weight": 3
+      },
+      {
+        "name": "music/game/mau5cave",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
       }
     ]
   },
@@ -328,14 +682,36 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal5",
+        "stream": true,
+        "volume": 0.55
+      },
+      {
+        "name": "music/game/nuance3",
+        "stream": true,
+        "volume": 0.5
       },
       {
         "name": "music/game/droopy",
         "stream": true,
-        "volume": 0.6,
-        "weight": 2
+        "volume": 0.5,
+        "weight": 3
       }
     ]
   },
@@ -352,8 +728,31 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance3",
+        "stream": true,
+        "volume": 0.5
+      },
+      {
+        "name": "music/game/nuance4",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
       }
     ]
   },
@@ -361,8 +760,13 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
+        "name": "music.overworld.jungle",
         "type": "event"
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
       }
     ]
   },
@@ -370,8 +774,48 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music.game",
-        "type": "event"
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance4",
+        "stream": true,
+        "volume": 0.6
+      },
+      {
+        "name": "music/game/piano4",
+        "stream": true,
+        "volume": 0.45
+      },
+      {
+        "name": "music/game/swarms",
+        "stream": true,
+        "volume": 0.25,
+        "weight": 5
       }
     ]
   },
