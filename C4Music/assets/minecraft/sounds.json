@@ -313,13 +313,13 @@
       {
         "name": "music/game/nether/ballad_of_the_cats",
         "stream": true,
-        "volume": 0.2,
+        "volume": 0.3,
         "pitch": 0.8
       },
       {
         "name": "music/game/nether/warmth",
         "stream": true,
-        "volume": 0.2,
+        "volume": 0.3,
         "pitch": 0.8
       },
       {
