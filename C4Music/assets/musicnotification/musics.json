@@ -1,0 +1,97 @@
+{
+  "minecraft:music/game/end/ki": {
+    "album": "Volume Beta",
+    "author": "C148",
+    "cover": "vol_beta",
+    "customId": "musicnotification:c4music.ki",
+    "title": "Ki"
+  },
+  "minecraft:music/game/end/intro": {
+    "album": "Volume Beta",
+    "author": "C148",
+    "cover": "vol_beta",
+    "customId": "musicnotification:c4music.intro",
+    "title": "Intro"
+  },
+  "minecraft:music/game/hal5": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.hal5",
+    "title": "Chris"
+  },
+  "minecraft:music/game/nuance3": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.nuance3",
+    "title": "Door"
+  },
+  "minecraft:music/game/nuance4": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.nuance4",
+    "title": "Équinoxe"
+  },
+  "minecraft:music/game/piano4": {
+    "album": "Volume Beta",
+    "author": "C148",
+    "cover": "vol_beta",
+    "customId": "musicnotification:c4music.piano4",
+    "title": "Kyoto"
+  },
+  "minecraft:music/game/droopy": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.droopy",
+    "title": "Droopy Likes Ricochet"
+  },
+  "minecraft:music/menu/menu5": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.menu5",
+    "title": "Moog City"
+  },
+  "minecraft:music/menu/menu6": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.menu6",
+    "title": "Beginning"
+  },
+  "minecraft:music/game/nether/nether5": {
+    "album": "Volume Alpha",
+    "author": "C148",
+    "cover": "vol_alpha",
+    "customId": "musicnotification:c4music.nether5",
+    "title": "Excuse"
+  },
+  "minecraft:music/game/nether/nether6": {
+    "album": "Volume Beta",
+    "author": "C148",
+    "cover": "vol_beta",
+    "customId": "musicnotification:c4music.nether6",
+    "title": "Flake"
+  },
+  "minecraft:music/game/peanuts": {
+    "album": "Little Things",
+    "author": "C148",
+    "customId": "musicnotification:c4music.peanuts",
+    "title": "Peanuts"
+  },
+  "minecraft:music/game/swarms": {
+    "album": "One",
+    "author": "C148",
+    "customId": "musicnotification:c4music.swarms",
+    "title": "Swarms"
+  },
+  "minecraft:music/game/mau5cave": {
+    "album": "7 Years of Server Data",
+    "author": "C148",
+    "customId": "musicnotification:c4music.mau5cave",
+    "title": "mau5cave"
+  }
+}

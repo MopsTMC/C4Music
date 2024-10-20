@@ -1,0 +1,128 @@
+{
+    "c4music.ki": {
+      "sounds": [
+        {
+          "name": "music/game/end/ki",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "c4music.intro": {
+      "sounds": [
+        {
+          "name": "music/game/end/intro",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "c4music.hal5": {
+      "sounds": [
+        {
+          "name": "music/game/hal5",
+          "stream": true,
+          "volume": 0.55
+        }
+      ]
+    },
+    "c4music.nuance3": {
+      "sounds": [
+        {
+          "name": "music/game/nuance3",
+          "stream": true,
+          "volume": 0.5
+        }
+      ]
+    },
+    "c4music.nuance4": {
+      "sounds": [
+        {
+          "name": "music/game/nuance4",
+          "stream": true,
+          "volume": 0.6
+        }
+      ]
+    },
+    "c4music.piano4": {
+      "sounds": [
+        {
+          "name": "music/game/piano4",
+          "stream": true,
+          "volume": 0.45
+        }
+      ]
+    },
+    "c4music.droopy": {
+      "sounds": [
+        {
+          "name": "music/game/droopy",
+          "stream": true,
+          "volume": 0.5
+        }
+      ]
+    },
+    "c4music.menu5": {
+      "sounds": [
+        {
+          "name": "music/menu/menu5",
+          "stream": true,
+          "volume": 0.6
+        }
+      ]
+    },
+    "c4music.menu6": {
+      "sounds": [
+        {
+          "name": "music/menu/menu6",
+          "stream": true,
+          "volume": 0.7
+        }
+      ]
+    },
+    "c4music.nether5": {
+      "sounds": [
+        {
+          "name": "music/game/nether/nether5",
+          "stream": true,
+          "volume": 0.75
+        }
+      ]
+    },
+    "c4music.nether6": {
+      "sounds": [
+        {
+          "name": "music/game/nether/nether6",
+          "stream": true,
+          "volume": 0.75
+        }
+      ]
+    },
+    "c4music.peanuts": {
+      "sounds": [
+        {
+          "name": "music/game/peanuts",
+          "stream": true,
+          "volume": 0.2
+        }
+      ]
+    },
+    "c4music.swarms": {
+      "sounds": [
+        {
+          "name": "music/game/swarms",
+          "stream": true,
+          "volume": 0.25
+        }
+      ]
+    },
+    "c4music.mau5cave": {
+      "sounds": [
+        {
+          "name": "music/game/mau5cave",
+          "stream": true,
+          "volume": 0.4
+        }
+      ]
+    }
+  }
