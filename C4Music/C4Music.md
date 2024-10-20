@@ -90,9 +90,10 @@ It has been 2 years since the first public release of C4Music! Thank you so much
 | [swarms](https://c418.bandcamp.com/track/swarms) | one | Mountains |
 | [mau5cave](https://c418.bandcamp.com/track/mau5cave) | seven years of server data | Caves |
 
-- Each biome now has a **unique tracklist** in order to keep parity with vanilla
+- Each biome now has a **unique tracklist** with some parity to vanilla
 - Adjusted **volume** of some tracks
-- Added out-of-tune nether tracks as distant echoes in Deep Dark
+- Added distant echoes of exclusively C418 tracks in **Deep Dark**
+- Added support for the **[Music Notification](https://modrinth.com/mod/music-notification)** mod
 <details><summary>Click here to view a detailed list of changes</summary>
   <p>
 
@@ -103,9 +104,9 @@ It has been 2 years since the first public release of C4Music! Thank you so much
   | Equinoxe | Overworld, Caves | - |
   | Kyoto | Overworld, Caves | -15% |
   | Droopy | Overworld | -10% | 
-  | Peanuts | Flower Forest, Cherry Grove, Lush Caves | -80% |
-  | Swarms | Frozen/Stony/Jagged Peaks and Badlands | -75% |
-  | Mau5cave | Deep Dark, Dripstone/Lush Caves | -40% |
+  | Peanuts **(new!)** | Flower Forest, Cherry Grove, Lush Caves | -80% |
+  | Swarms **(new!)** | Frozen/Stony/Jagged Peaks and Badlands | -75% |
+  | Mau5cave **(new!)** | Deep Dark, Dripstone/Lush Caves | -40% |
   | Concrete Halls | Nether, Deep Dark | - |
   | Ballad of the Cats | Nether, Deep Dark | - |
   
@@ -116,7 +117,7 @@ It has been 2 years since the first public release of C4Music! Thank you so much
   - https://archive.org/download/MCCOST (halloween)
 --->
 
-## 1.20.5+ Compatibility
+## v3.2 - 1.20.5+ Compatibility
 
 Due to an oversight with the pack overlay system and some undocumented changes in 1.20.5, the previous version would not register the correct tracklist. This version has only been tested on 1.20.6.
 
@@ -125,7 +126,7 @@ Due to an oversight with the pack overlay system and some undocumented changes i
 - Added compatibility with Now Playing v1.5.1
 - **The file can no longer, and is not meant to, be extracted and used outside of the game. It is also [incompatible with Java 22!](https://github.com/MopsTMC/C4Music/issues/5)**
 
-## 1.20.3 Patch
+## v3.1 - 1.20.3 Patch
 
 ### DO NOT USE IN 1.20.5+
 _This version will not play music correctly on versions other than the ones mentioned below_
@@ -140,7 +141,7 @@ This release adds compatibility with the path changes in 1.20.3 (pack format 19)
 These changes only affect versions which can interpret the respective fields in `pack.mcmeta` (>1.20.2) which means minecraft will still complain about the resourcepack being made for an older or newer version depending on your setup. <br>
 As for every new release, please report any findings and issues
 
-## Third Major Release
+## v3.0 - Third Major Release
 
 - Fixed the unspecified `flower_forest` and `forest` sound events from the compatibility addon
 - The new sound events added in 23w17a inherit from the common `music.game` sound event
@@ -151,13 +152,21 @@ As for every new release, please report any findings and issues
 
 -----------------------------------------------------------------------------
 
-## Now Playing Compatibility
+## v2.2 Now Playing Compatibility
 
 This update brings integration with [Now Playing](https://modrinth.com/mod/eNF4Bfla) which will now show the added tracks' names in its notification. Vanilla Minecraft will probably ignore this version's extra assets but in the rare occassion you have trouble using this resource pack try [the older version](https://modrinth.com/resourcepack/c4music/version/5sNysEA2).
 
 -----------------------------------------------------------------------------
 
-## Major Refactor
+## v2.1 - Internal Changes
+
+<p>
+This release changed the way tracks in biomes are defined and through the process possibly fixed issues where not all tracks would play.
+</p>
+
+Specifically `sounds.json` was modified in the way it made all overworld tracks play globally. Instead of defining the same track list for every biome, it uses inheritance from a common event. This has resulted in nothing more than a 15.6kB reduction in file size and possibly fixed parsing issues along the way.
+
+## v2.0 Major Refactor
 
 This release has brought some much needed polish to C4Music. Its approach has borrowed ideas from [Balanced Music](https://modrinth.com/resourcepack/CWBlLg2t) and their mutual use is now obsolete.
 <hr>
@@ -204,7 +213,7 @@ This release has brought some much needed polish to C4Music. Its approach has bo
 
 -----------------------------------------------------------------------------
 
-## Initial release
+## v1 Initial release
 
 ### Gameplay Music Changed
 - Stand Tall -> Intro
