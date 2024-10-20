@@ -79,18 +79,21 @@
   "minecraft:music/game/peanuts": {
     "album": "Little Things",
     "author": "C148",
+    "cover": "caves_and_cliffs_ost",
     "customId": "musicnotification:c4music.peanuts",
     "title": "Peanuts"
   },
   "minecraft:music/game/swarms": {
     "album": "One",
     "author": "C148",
+    "cover": "wait",
     "customId": "musicnotification:c4music.swarms",
     "title": "Swarms"
   },
   "minecraft:music/game/mau5cave": {
     "album": "7 Years of Server Data",
     "author": "C148",
+    "cover": "wild_update_ost",
     "customId": "musicnotification:c4music.mau5cave",
     "title": "mau5cave"
   }
