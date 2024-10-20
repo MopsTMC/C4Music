@@ -1,12 +1,13 @@
 # C4Music
 
-C4Music is a lightweight resource pack that satisfyingly completes Minecraft's soundtrack with C418's unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta). It removes the music added in Caves & Cliffs, The Wild Update, and Trails & Tales and expands upon the original soundtrack with a faithful approach to the gameplay and its history.
+C4Music is a lightweight resource pack that satisfyingly completes Minecraft's soundtrack with C418's unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta). It removes the music added in updates succeeding the Nether Update and expands upon the original soundtrack with a faithful approach to the gameplay and its history.
 
-## Thank you for 50k downloads!
+## 🎉 Thank you for 50k downloads!
+**Make sure to download the anniversary release!** <br>
 I ask you to spare a few minutes to answer the survey below. Your time is helpful and greatly appreciated! <br>
 [https://forms.gle/SDwFRtbASJw3Fwov7](https://forms.gle/SDwFRtbASJw3Fwov7)
 
-## Why?
+## ❔ Why?
 
 **tl;dr** <br>
 In honor of preserving the original soundtrack. If you prefer it too, give this pack a try!
@@ -18,46 +19,49 @@ Turns out this was somewhat intentional. The original soundtrack is being phased
 </p>
 
 
-## Features
+## 📜 Features
 
-- **Gameplay Music**
-(Check out this [changelog](https://modrinth.com/resourcepack/c4music/version/2.0) for details)
+- ### 🎶 **Gameplay Music**
 
-  - __Removed__: <br>
-Stand Tall, Left to Bloom, Wending, Infinite Amethyst, One More Day, Floating Dream, Comforting Memories, An Ordinary Day, Firebugs, Aerie, Labyrinthine, Echo in the Wind, A Familiar Room, Bromelaid, Crescent Dunes
+  - ➖ __Removed__ the music from: <br>
+Caves & Cliffs, The Wild Update, Trails & Tales, Tricky Trials
 
-  - __Added__: <br>
-Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, Beginning, Moog City, Swarms, Peanuts
+  - ➕ __Added__ from C418's Albums: <br>
+Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, Beginning, Moog City, Swarms, Peanuts, mau5cave
 
-- **Lightweight** thanks to Packsquash
+- 🪶 **Lightweight** thanks to Packsquash
 
-- Built-in **Mod Support** for [Now Playing](https://modrinth.com/mod/now-playing), [Music Identifier](https://modrinth.com/mod/music-identifier) and [Music Control](https://modrinth.com/mod/music-control)
+- 📥 Built-in **Mod Support** for: <br>
+  - [Music Notification](https://modrinth.com/mod/music-notification) <br>
+  - [Now Playing](https://modrinth.com/mod/now-playing) <br>
+  - [Music Control](https://modrinth.com/mod/music-control) <br>
+  - [Mixtape](https://modrinth.com/mod/mixtape/) <br>
+  - [Music Identifier](https://modrinth.com/mod/music-identifier) 
 
-- **Extras**
+- ✨ **Extras**
   - [Nether Addon](https://modrinth.com/resourcepack/c4music/version/c4nether) - Replaces everything Nether-related
   - [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with C418 tracks
 
-## Compatibility
+## 🔗 Compatibility
 
-- ### Resource Packs <br>
-  C4Music is incompatible with other music-overriding resource packs which provide their own `sounds.json`, such as [Only C418](https://modrinth.com/resourcepack/only-c418). Priority will be given based on placement in the list of the resource pack menu, with an almost guarantee of an inconsistent state. I recommend choosing only one such resource pack to be used at a time.
+- ### 📦 Resource Packs <br>
+  C4Music is incompatible with other music-overhauling resource packs which provide their own `sounds.json`. Priority will be given based on placement in the list of the resource pack menu, with an almost guarantee of an inconsistent state. I recommend choosing only one such resource pack to be used at a time.
 
   To use C4Music alongside resource packs that *add* to the vanilla soundtrack and are known to *not* use the `replace` feature in `sounds.json`, **place C4Music below any such pack** to ensure all tracks are registered.
 
   Minecraft's warning that the resource pack is made for an older or newer version can be safely ignored as long as the modrinth download page lists your Minecraft version as supported. This is only because it has its pack format set to 9 but it should work on all 1.17+ versions.
 
-- ### Mods <br>
+- ### 📚 Mods <br>
   - ❕ **Mods with built-in resource packs**. These cases should be treated as mentioned above like any other resource pack
   - ✅ **Content mods** usually append to the game's soundtrack with their own sound events so there shouldn't be any issues. However, if a mod is used to replace or modify music, chances are it's going to ignore C4Music
   - ✅ [Start the Music!](https://modrinth.com/mod/start-the-music) is compatible. The same probably goes for [More Music](https://modrinth.com/mod/moremusic)
-  - ✅ [Mixtape](https://modrinth.com/mod/mixtape/) works well out of the box with C4Music. There is a rare case though in which creative music will play in survival while using this mod in multiplayer
-  - ❌ [Music Notification](https://modrinth.com/mod/music-notification) does not display track info correctly due to the way it parses music and does not allow overrides with resource packs
+  - ❔ [Music Sync](https://modrinth.com/mod/music-sync) cannot be confirmed to be compatible. The resource pack however, complies fully with curration standards
   - ❌ [Playlist](https://modrinth.com/mod/playlist) is in a grey area, as it undoes the removal part of C4Music. This means its tracks will still play naturally but alongside the new tracks. Also, they are currently not available in its menu but this is a planned feature as mentioned [in this issue](https://github.com/fudgeu/playlist/issues/39)
 
-- ### Bedrock
+- ### 🪨 Bedrock
   ❌ Due to technical complications, bedrock is not supported.
 
-## Notes
+## 🚩 Notes
 
 - The release channel in every release specifies the amount of testing it has gone through and the extent of its functionality. Issue reporting and feedback are greatly encouraged through [GitHub issues](https://github.com/MopsTMC/C4Music/issues) or Discord `@mopstmc`
   - 🟢 **Release**: Recommended for download; there are no known issues
@@ -78,9 +82,11 @@ This pack is dedicated to fans of Minecraft and [C418](https://c418.org/)'s amaz
 
 # Versions
 
-## v4 - Anniversary Update 🥳
+## v4 - Anniversary Update 🎉
 
-It has been 2 years since the first public release of C4Music! Thank you so much for downloading the resource pack, especially to the those who have stuck around since the humble beginnings.
+It has been 2 years since the first public release of C4Music! Thank you so much for downloading the resource pack, especially to the those who have stuck around since the humble beginnings. Have fun!
+
+### Changes
 
 - Added **3 new tracks**
 
@@ -93,7 +99,7 @@ It has been 2 years since the first public release of C4Music! Thank you so much
 - Each biome now has a **unique tracklist** with some parity to vanilla
 - Adjusted **volume** of some tracks
 - Added distant echoes of exclusively C418 tracks in **Deep Dark**
-- Added support for the **[Music Notification](https://modrinth.com/mod/music-notification)** mod
+- Added support for the **[Music Notification](https://modrinth.com/mod/music-notification)** and **[Mixtape](https://modrinth.com/mod/mixtape/)** mods
 <details><summary>Click here to view a detailed list of changes</summary>
   <p>
 
