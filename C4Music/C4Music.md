@@ -119,6 +119,13 @@ It has been 2 years since the first public release of C4Music! Thank you so much
   </p>
 </details>
 
+## IMPORTANT ⚠️
+
+To use this version, extract the file `C4Music_v4.0.zip` to your resource pack folder from within the downloaded `EXTRACT_ME.zip` archive and place it in your resourcepacks directory as you would normally
+
+I apologise for the process not being as straightforward as in the past but this the only way this version can be uploaded
+
+
 <!---
   - https://archive.org/download/MCCOST (halloween)
 --->
