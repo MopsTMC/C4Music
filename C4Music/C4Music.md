@@ -3,7 +3,7 @@
 C4Music is a lightweight resource pack that satisfyingly completes Minecraft's soundtrack with C418's unused music from Minecraft Volumes [Alpha](https://c418.bandcamp.com/album/minecraft-volume-alpha) & [Beta](https://c418.bandcamp.com/album/minecraft-volume-beta). It removes the music added in updates succeeding the Nether Update and expands upon the original soundtrack with a faithful approach to the gameplay and its history.
 
 ## 🎉 Thank you for 50k downloads!
-**Make sure to download the anniversary release!** <br>
+**Make sure to download the [anniversary release](https://modrinth.com/resourcepack/c4music/version/4.0)!** <br>
 I ask you to spare a few minutes to answer the survey below. Your time is helpful and greatly appreciated! <br>
 [https://forms.gle/SDwFRtbASJw3Fwov7](https://forms.gle/SDwFRtbASJw3Fwov7)
 
@@ -38,18 +38,19 @@ Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, 
   - [Mixtape](https://modrinth.com/mod/mixtape/) <br>
   - [Music Identifier](https://modrinth.com/mod/music-identifier) 
 
-- ✨ **Extras**
+- ✨ **Extras & Add-ons**
+  - **[🍹Acclimate](https://modrinth.com/resourcepack/acclimate)** by _prototype464_ <br> It's a middleground solution to get you into changing Minecraft's soundtrack! It keeps some of the new tracks and can be used standalone or as an add-on to C4Music
   - [Nether Addon](https://modrinth.com/resourcepack/c4music/version/c4nether) - Replaces everything Nether-related
   - [Music Discs](https://modrinth.com/resourcepack/c4music/version/c4records) - Replaces the new records with C418 tracks
 
 ## 🔗 Compatibility
 
 - ### 📦 Resource Packs <br>
-  C4Music is incompatible with other music-overhauling resource packs which provide their own `sounds.json`. Priority will be given based on placement in the list of the resource pack menu, with an almost guarantee of an inconsistent state. I recommend choosing only one such resource pack to be used at a time.
+  C4Music does not have guaranteed compatibility with other music-overhauling resource packs which provide their own `sounds.json`. Priority will be given based on placement in the list of the resource pack menu, with an almost guarantee of an inconsistent state. <br> _I recommend choosing only one music resource pack to be used at a time._
 
   To use C4Music alongside resource packs that *add* to the vanilla soundtrack and are known to *not* use the `replace` feature in `sounds.json`, **place C4Music below any such pack** to ensure all tracks are registered.
 
-  Minecraft's warning that the resource pack is made for an older or newer version can be safely ignored as long as the modrinth download page lists your Minecraft version as supported. This is only because it has its pack format set to 9 but it should work on all 1.17+ versions.
+  Minecraft's warning that the resource pack is made for an older/newer version can be safely ignored as long as the modrinth download page lists your Minecraft version as supported.
 
 - ### 📚 Mods <br>
   - ❕ **Mods with built-in resource packs**. These cases should be treated as mentioned above like any other resource pack
@@ -63,7 +64,7 @@ Intro, Kyoto, Équinoxe, Ki, Chris, Flake, Excuse, Door, Droopy Likes Ricochet, 
 
 ## 🚩 Notes
 
-- The release channel in every release specifies the amount of testing it has gone through and the extent of its functionality. Issue reporting and feedback are greatly encouraged through [GitHub issues](https://github.com/MopsTMC/C4Music/issues) or Discord `@mopstmc`
+- The release channel in every release specifies the amount of testing it has gone through and the extent of its functionality. Issue reporting and feedback are greatly encouraged through [GitHub issues](https://github.com/MopsTMC/C4Music/issues)
   - 🟢 **Release**: Recommended for download; there are no known issues
   - 🟠 **Beta**: In testing; working for the most part but not yet confirmed to be stable
   - 🔴 **Alpha**: Under development; proceed with caution and report any findings if possible as it would help immensely. Old versions tagged as alpha contain bugs and are kept only for archival reasons
