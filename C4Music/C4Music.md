@@ -83,7 +83,7 @@ This pack is dedicated to fans of Minecraft and [C418](https://c418.org/)'s amaz
 
 # Versions
 
-## v4.1
+## v4.1 - Minor fixes
 
 - Make compatible with Java 22+ ([fixed in packsquash](https://github.com/ComunidadAylas/PackSquash/issues/294))
 - Fix playback in Creative and Deep Dark ([Issue #12](https://github.com/MopsTMC/C4Music/issues/12))

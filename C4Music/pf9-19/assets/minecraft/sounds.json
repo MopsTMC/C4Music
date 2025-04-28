@@ -3,27 +3,27 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/creative/aria_math",
+        "name": "music/game/creative/creative1",
         "stream": true
       },
       {
-        "name": "music/game/creative/biome_fest",
+        "name": "music/game/creative/creative2",
         "stream": true
       },
       {
-        "name": "music/game/creative/blind_spots",
+        "name": "music/game/creative/creative3",
         "stream": true
       },
       {
-        "name": "music/game/creative/dreiton",
+        "name": "music/game/creative/creative4",
         "stream": true
       },
       {
-        "name": "music/game/creative/haunt_muskie",
+        "name": "music/game/creative/creative5",
         "stream": true
       },
       {
-        "name": "music/game/creative/taswell",
+        "name": "music/game/creative/creative6",
         "stream": true
       }
     ]
@@ -311,13 +311,13 @@
     "replace": true,
     "sounds": [
       {
-        "name": "music/game/nether/ballad_of_the_cats",
+        "name": "music/game/nether/nether4",
         "stream": true,
         "volume": 0.3,
         "pitch": 0.8
       },
       {
-        "name": "music/game/nether/warmth",
+        "name": "music/game/nether/nether3",
         "stream": true,
         "volume": 0.3,
         "pitch": 0.8
