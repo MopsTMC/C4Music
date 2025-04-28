@@ -83,6 +83,11 @@ This pack is dedicated to fans of Minecraft and [C418](https://c418.org/)'s amaz
 
 # Versions
 
+## v4.1
+
+- Make compatible with Java 22+ ([fixed in packsquash](https://github.com/ComunidadAylas/PackSquash/issues/294))
+- Fix playback in Creative and Deep Dark ([Issue #12](https://github.com/MopsTMC/C4Music/issues/12))
+
 ## v4 - Anniversary Update 🎉
 
 It has been 2 years since the first public release of C4Music! Thank you so much for downloading the resource pack, especially to the those who have stuck around since the humble beginnings. Have fun!
@@ -126,6 +131,13 @@ To use this version, extract the file `C4Music_v4.0.zip` to your resource pack f
 
 I apologise for the process not being as straightforward as in the past but this the only way this version can be uploaded
 
+<!---
+ If this is confusing you may download v4.1 directly.
+
+**If you use Java 22+ download the file C4Music_v4.1.zip directly, no extra steps needed. v4.0 will not work**
+
+### **Do _NOT_ open C4Music_v4.0.zip or C4Music_v4.1.zip**
+--->
 
 <!---
   - https://archive.org/download/MCCOST (halloween)
