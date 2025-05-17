@@ -1,0 +1,20 @@
+Mozilla Public License Version 2.0
+
+This resource pack is licensed under the Mozilla Public License Version 2.0.
+
+Copyright (c) 2025 MopsTMC
+
+Permission is granted to use, copy, modify, and distribute this resource pack,
+provided that:
+
+1.  Attribution: You must include the original copyright notice and the MPL 2.0
+    license in all copies or substantial portions of the resource pack.  Specifically,
+    mention MopsTMC as the original creator.
+
+2.  License Preservation:  Any modifications or derivative works must be distributed
+    under the terms of the Mozilla Public License Version 2.0.
+
+3.  No Relicensing: You may not relicense this resource pack to a proprietary license.
+
+For the full text of the MPL 2.0, see:
+https://www.mozilla.org/MPL/2.0/
