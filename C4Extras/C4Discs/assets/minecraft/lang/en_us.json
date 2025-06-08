@@ -1,7 +1,17 @@
 {
-  "item.minecraft.music_disc_11.desc": "C418 - eleven",
-  "item.minecraft.music_disc_5.desc": "C418 - one",
+  "item.minecraft.music_disc_5.desc": "C418 - eleven",
+  "item.minecraft.music_disc_creator_music_box.desc": "C418 - Droopy Likes Your Face",
+  "item.minecraft.music_disc_creator.desc": "C418 - jayson glove",
   "item.minecraft.music_disc_otherside.desc": "C418 - dog",
-  "item.minecraft.music_disc_pigstep.desc": "C418 - jayson glove",
-  "item.minecraft.music_disc_relic.desc": "C418 - depado"
+  "item.minecraft.music_disc_precipice.desc": "C418 - certitudes",
+  "item.minecraft.music_disc_relic.desc": "C418 - depado",
+  "item.minecraft.music_disc_tears.desc": "C418 - Vlem",
+
+  "jukebox_song.minecraft.5": "C418 - eleven",
+  "jukebox_song.minecraft.creator_music_box": "C418 - Droopy Likes Your Face",
+  "jukebox_song.minecraft.creator": "C418 - jayson glove",
+  "jukebox_song.minecraft.otherside": "C418 - dog",
+  "jukebox_song.minecraft.precipice": "C418 - certitudes",
+  "jukebox_song.minecraft.relic": "C418 - depado",
+  "jukebox_song.minecraft.tears": "C418 - Vlem"
 }

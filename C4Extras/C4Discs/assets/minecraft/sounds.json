@@ -1,5 +1,5 @@
 {
-  "music_disc.11": {
+  "music_disc.5": {
     "replace": true,
     "sounds": [
       {
@@ -9,13 +9,23 @@
       }
     ]
   },
-  "music_disc.5": {
+  "music_disc.creator_music_box": {
     "replace": true,
     "sounds": [
       {
-        "name": "records/one",
+        "name": "records/droopylyf",
         "stream": true,
-        "volume": 0.75
+        "volume": 1.1
+      }
+    ]
+  },
+  "music_disc.creator": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/jayson-glove",
+        "stream": true,
+        "volume": 0.1
       }
     ]
   },
@@ -29,13 +39,13 @@
       }
     ]
   },
-  "music_disc.pigstep": {
+  "music_disc.precipice": {
     "replace": true,
     "sounds": [
       {
-        "name": "records/jayson-glove",
+        "name": "records/certitudes",
         "stream": true,
-        "volume": 0.75
+        "volume": 0.35
       }
     ]
   },
@@ -46,6 +56,16 @@
         "name": "records/depado",
         "stream": true,
         "volume": 0.80
+      }
+    ]
+  },
+  "music_disc.tears": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/vlem",
+        "stream": true,
+        "volume": 0.7
       }
     ]
   }
