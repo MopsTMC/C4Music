@@ -1,6 +1,19 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "§7C4Discs \u2022 v1 \n§8by MopsTMC"
+    "supported_formats": {"min_inclusive": 15, "max_inclusive": 81},
+    "description": "§7C4Discs \u2022 v2 \n§8by MopsTMC"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {"min_inclusive": 48, "max_inclusive": 71},
+        "directory": "pf48-71"
+      },
+      {
+        "formats": {"min_inclusive": 81, "max_inclusive": 81},
+        "directory": "pf81"
+      }
+    ]
   }
 }
