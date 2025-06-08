@@ -1,7 +1,12 @@
 {
   "item.minecraft.music_disc_11.desc": "C418 - eleven",
+  "jukebox_song.minecraft.11": "C418 - eleven",
   "item.minecraft.music_disc_5.desc": "C418 - one",
+  "jukebox_song.minecraft.5": "C418 - one",
   "item.minecraft.music_disc_otherside.desc": "C418 - dog",
-  "item.minecraft.music_disc_pigstep.desc": "C418 - jayson glove",
-  "item.minecraft.music_disc_relic.desc": "C418 - depado"
+  "jukebox_song.minecraft.otherside": "C418 - dog",
+  "item.minecraft.music_disc_pigstep.desc": "C418 - vlem",
+  "jukebox_song.minecraft.pigstep": "C418 - vlem",
+  "item.minecraft.music_disc_relic.desc": "C418 - depado",
+  "jukebox_song.minecraft.relic": "C418 - depado"
 }
